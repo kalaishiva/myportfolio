@@ -34,6 +34,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 37px;
 }
 
 .logo {
@@ -50,7 +51,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     position: relative;
 }
 
@@ -67,6 +68,10 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
+}
+
+.nav-item {
+    font-size: 18px;
 }
 
 .header-text {
