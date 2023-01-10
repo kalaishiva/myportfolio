@@ -27,6 +27,7 @@ body {
 
 .container {
     padding: 10px 10%;
+    /* border: 2px solid rgb(0, 81, 255); */
 }
 
 nav {
@@ -46,6 +47,18 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+}
+
+.unlist {
+    /* border: 2px solid green; */
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+span {
+    color: #f35889;
+    font-size: 20px;
+    list-style: none;
 }
 
 nav ul li a {
